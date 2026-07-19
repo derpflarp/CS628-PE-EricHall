@@ -1,0 +1,73 @@
+.resume {
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: black;
+  background-color: #bdfb04;
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: black;
+}
+
+.section {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.education h3,
+.experience h3,
+.projects h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.education p,
+.experience p,
+.projects p {
+  margin: 5px 0;
+}
+
+.skills ul,
+.experience ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skills li,
+.experience li {
+  margin-bottom: 5px;
+}
+
+.projects a {
+  color: black;
+  text-decoration: underline;
+}
+
+.projects a:hover {
+  text-decoration: none;
+}
